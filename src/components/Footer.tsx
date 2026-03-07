@@ -82,7 +82,7 @@ export default function Footer() {
               <li><a href="#testimonials" className="text-sm hover:text-white transition-colors">Testimonials</a></li>
               <li><a href="#faq" className="text-sm hover:text-white transition-colors">FAQ</a></li>
               <li><a href="#contact" className="text-sm hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#booking" className="text-sm hover:text-white transition-colors">Book a Consultation</a></li>
+              <li><a href="tel:3369411955" className="text-sm hover:text-white transition-colors">Call Us</a></li>
             </ul>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default function Testimonials() {
           <h2 className="text-3xl md:text-4xl font-800 text-ink mb-4">
             What Our Clients Say
           </h2>
-          <p className="text-slate/70 max-w-xl mx-auto">
+          <p className="text-ink/70 font-medium max-w-xl mx-auto">
             Our customers are our best advocates. Here&apos;s what they have to say
             about working with us.
           </p>
@@ -60,12 +60,12 @@ export default function Testimonials() {
                   <StarIcon key={i} />
                 ))}
               </div>
-              <p className="text-slate/80 text-sm leading-relaxed mb-6">
+              <p className="text-ink/70 text-sm font-medium leading-relaxed mb-6">
                 &ldquo;{t.text}&rdquo;
               </p>
               <div className="border-t border-cloud pt-4">
                 <p className="font-heading font-700 text-ink text-sm">{t.name}</p>
-                <p className="text-xs text-slate/60 mt-0.5">{t.project}</p>
+                <p className="text-xs text-ink/50 font-medium mt-0.5">{t.project}</p>
               </div>
             </div>
           ))}

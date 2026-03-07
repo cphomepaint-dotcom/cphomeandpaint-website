@@ -87,7 +87,7 @@ export default function Services() {
           <h2 className="text-3xl md:text-4xl font-800 text-ink mb-5">
             If It&apos;s In Your Home, We Do It
           </h2>
-          <p className="text-ink/80 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-ink/70 font-medium max-w-2xl mx-auto leading-relaxed">
             From full-scale renovations to small repairs, we handle every project with precision and care.
             Don&apos;t see your project listed below? We still do it — just ask.
           </p>

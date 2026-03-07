@@ -63,7 +63,7 @@ export default function FAQ() {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full flex items-center justify-between p-5 text-left"
               >
-                <span className="font-heading font-600 text-ink text-sm pr-4">
+                <span className="font-heading font-700 text-ink text-sm pr-4">
                   {faq.q}
                 </span>
                 <span
@@ -76,7 +76,7 @@ export default function FAQ() {
               </button>
               {openIndex === i && (
                 <div className="px-5 pb-5 -mt-1">
-                  <p className="text-sm text-slate/70 leading-relaxed">
+                  <p className="text-sm text-ink/70 font-medium leading-relaxed">
                     {faq.a}
                   </p>
                 </div>

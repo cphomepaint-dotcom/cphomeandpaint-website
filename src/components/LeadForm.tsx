@@ -105,7 +105,7 @@ export default function LeadForm() {
                 </div>
                 <div>
                   <p className="text-white/60 text-xs font-medium uppercase tracking-wider mb-1">Response Time</p>
-                  <p className="text-white font-heading font-600">Within 24 Hours</p>
+                  <p className="text-white font-heading font-700">Under 4 Hours</p>
                 </div>
               </div>
             </div>

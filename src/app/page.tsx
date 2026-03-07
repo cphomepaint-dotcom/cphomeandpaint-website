@@ -4,7 +4,6 @@ import TrustStrip from "@/components/TrustStrip";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import LeadForm from "@/components/LeadForm";
-import Booking from "@/components/Booking";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -19,7 +18,6 @@ export default function Home() {
         <Services />
         <Portfolio />
         <LeadForm />
-        <Booking />
         <Testimonials />
         <FAQ />
       </main>

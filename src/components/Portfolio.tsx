@@ -105,7 +105,7 @@ export default function Portfolio() {
           <h2 className="text-3xl md:text-4xl font-800 text-ink mb-4">
             See the Results for Yourself
           </h2>
-          <p className="text-ink/80 max-w-xl mx-auto">
+          <p className="text-ink/70 font-medium max-w-xl mx-auto">
             Real projects, real homes across the DC, Virginia, and Maryland area.
             Click any project to see it up close.
           </p>
@@ -161,7 +161,7 @@ export default function Portfolio() {
                 <h3 className="font-heading font-700 text-ink text-sm uppercase tracking-wide leading-snug">
                   {project.title}
                 </h3>
-                <p className="text-slate/60 text-xs mt-1">{project.category}</p>
+                <p className="text-ink/50 text-xs font-medium mt-1">{project.category}</p>
               </div>
             </button>
           ))}

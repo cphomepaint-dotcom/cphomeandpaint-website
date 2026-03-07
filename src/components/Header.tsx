@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -19,12 +20,14 @@ export default function Header() {
       <div className="container-site flex items-center justify-between h-[72px] px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          {/* Logo placeholder — replace src with actual logo file */}
-          <div className="w-9 h-9 bg-accent flex items-center justify-center shrink-0" style={{ borderRadius: "var(--radius-btn)" }}>
-            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-            </svg>
-          </div>
+          <Image
+            src="/images/logo.png"
+            alt="CP Home & Paint"
+            width={44}
+            height={44}
+            className="shrink-0"
+            priority
+          />
           <span className="font-heading text-xl font-800 tracking-tight text-ink">
             CP Home<span className="text-accent">&nbsp;&amp;&nbsp;</span>Paint
           </span>
@@ -36,7 +39,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate hover:text-accent transition-colors"
+              className="text-sm font-semibold text-ink/70 hover:text-accent transition-colors"
             >
               {link.label}
             </a>
@@ -45,7 +48,7 @@ export default function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:3369411955" className="text-sm font-heading font-600 text-slate hover:text-accent transition-colors">
+          <a href="tel:3369411955" className="text-sm font-heading font-700 text-ink hover:text-accent transition-colors">
             (336) 941-1955
           </a>
           <a href="#contact" className="btn-primary text-sm">
@@ -80,7 +83,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="py-3 text-base font-medium text-slate hover:text-accent transition-colors border-b border-stone"
+                className="py-3 text-base font-semibold text-ink/80 hover:text-accent transition-colors border-b border-stone"
               >
                 {link.label}
               </a>
@@ -94,7 +97,7 @@ export default function Header() {
             </a>
             <a
               href="tel:3369411955"
-              className="mt-3 text-center text-sm font-heading font-600 text-slate py-2"
+              className="mt-3 text-center text-sm font-heading font-700 text-ink py-2"
             >
               Or Call: (336) 941-1955
             </a>
