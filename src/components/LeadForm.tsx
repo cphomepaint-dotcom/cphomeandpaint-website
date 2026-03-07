@@ -62,9 +62,9 @@ export default function LeadForm() {
               Ready to Start Your Project?
             </h2>
             <p className="text-white/70 mb-10 leading-relaxed max-w-md">
-              Tell us about your vision and we&apos;ll get back to you within
-              24 hours with a detailed quote. No project is too big or too small
-              for our team.
+              Tell us about your vision and we&apos;ll get back to you with a
+              detailed quote in just a few hours. No project is too big or too
+              small for our team.
             </p>
 
             {/* Contact Details */}
@@ -129,8 +129,8 @@ export default function LeadForm() {
                   <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
                 </div>
                 <h3 className="font-heading font-700 text-2xl text-ink mb-3">Quote Request Sent</h3>
-                <p className="text-slate/70 leading-relaxed mb-6 max-w-sm mx-auto">
-                  Thank you! We&apos;ve received your request and will get back to you within 24 hours. Check your email for a confirmation.
+                <p className="text-ink/70 font-medium leading-relaxed mb-6 max-w-sm mx-auto">
+                  Thank you! We&apos;ve received your request and will get back to you shortly. Check your email for a confirmation.
                 </p>
                 <button onClick={() => setStatus("idle")} className="btn-secondary">Send Another Request</button>
               </div>
@@ -181,7 +181,7 @@ export default function LeadForm() {
                 <button type="submit" disabled={status === "sending"} className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed">
                   {status === "sending" ? "Sending..." : "Send Quote Request"}
                 </button>
-                <p className="text-xs text-slate/50 text-center">We respond to every inquiry within 24 hours.</p>
+                <p className="text-xs text-ink/40 text-center">We respond to every inquiry within a few hours.</p>
               </form>
             )}
           </div>

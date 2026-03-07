@@ -80,9 +80,9 @@ export async function POST(req: NextRequest) {
           </div>
           <div style="padding: 32px; background: #F6F7F9; border: 1px solid #E7EAEE;">
             <p style="color: #0B1220; font-size: 16px; line-height: 1.6; margin-top: 0;">
-              We received your quote request and will get back to you within
-              <strong>24 hours</strong>. If your project is urgent, feel free to
-              call us directly.
+              We received your quote request and will get back to you
+              <strong>within a few hours</strong>. Feel free to call us directly
+              anytime if you'd like to chat sooner.
             </p>
             <div style="margin: 24px 0;">
               <p style="color: #1E293B; font-size: 14px; margin: 4px 0;">

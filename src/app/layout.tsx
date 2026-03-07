@@ -16,6 +16,7 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cphomeandpaint.com"),
   title: "CP Home & Paint | Home Improvements in DC, Virginia & Maryland",
   description:
     "Professional home improvement services including bathroom remodels, kitchen remodels, custom carpentry, flooring, painting, and more. Serving Washington DC, Virginia, and Maryland.",
@@ -30,6 +31,10 @@ export const metadata: Metadata = {
     "Virginia home improvement",
     "Maryland contractor",
     "DMV area contractor",
+    "home renovation",
+    "handyman services",
+    "deck building",
+    "drywall repair",
   ],
   openGraph: {
     title: "CP Home & Paint | Home Improvements in DC, Virginia & Maryland",
