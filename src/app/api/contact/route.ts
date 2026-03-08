@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
     // Email to the business owner
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || "CP Home & Paint <noreply@cphomeandpaint.com>",
-      to: process.env.CONTACT_EMAIL || "cphomeandpaint@gmail.com",
+      to: process.env.CONTACT_EMAIL || "cphomepaint@gmail.com",
       replyTo: email,
       subject: `New Quote Request: ${service || "General Inquiry"} — ${name}`,
       html: `
@@ -89,7 +89,7 @@ export async function POST(req: NextRequest) {
                 <strong>Phone:</strong> (336) 941-1955
               </p>
               <p style="color: #1E293B; font-size: 14px; margin: 4px 0;">
-                <strong>Email:</strong> cphomeandpaint@gmail.com
+                <strong>Email:</strong> cphomepaint@gmail.com
               </p>
             </div>
             <p style="color: #1E293B; font-size: 14px; line-height: 1.6;">

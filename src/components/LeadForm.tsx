@@ -91,8 +91,8 @@ export default function LeadForm() {
                 </div>
                 <div>
                   <p className="text-white/60 text-xs font-medium uppercase tracking-wider mb-1">Email Us</p>
-                  <a href="mailto:cphomeandpaint@gmail.com" className="text-white font-heading font-600 hover:text-accent transition-colors">
-                    cphomeandpaint@gmail.com
+                  <a href="mailto:cphomepaint@gmail.com" className="text-white font-heading font-600 hover:text-accent transition-colors">
+                    cphomepaint@gmail.com
                   </a>
                 </div>
               </div>

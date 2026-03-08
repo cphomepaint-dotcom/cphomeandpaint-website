@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "How do I get a quote for my project?",
-    a: "You can fill out the contact form on this page, give us a call at (336) 941-1955, or email us at cphomeandpaint@gmail.com. We'll discuss your project and provide a detailed estimate.",
+    a: "You can fill out the contact form on this page, give us a call at (336) 941-1955, or email us at cphomepaint@gmail.com. We'll discuss your project and provide a detailed estimate.",
   },
   {
     q: "What types of projects do you handle?",
