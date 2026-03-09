@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image — 75% opacity so the photo is clearly visible */}
       <div className="absolute inset-0">
         <Image
-          src="/images/outdoor/outdoor-pergola-completed-01.jpeg"
+          src="/images/outdoor/outdoor-gazebo-07.jpeg"
           alt="Professional home improvement project by CP Home & Paint"
           fill
           className="object-cover opacity-75"

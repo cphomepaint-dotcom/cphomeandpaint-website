@@ -5,73 +5,73 @@ const services = [
     title: "Bathroom Remodels",
     description:
       "Complete transformations — tile work, walk-in showers, vanities, bathtubs, and custom fixtures tailored to your style.",
-    image: "/images/bathrooms/bathroom-tile-shower-glass-door-01.jpeg",
+    image: "/images/bathrooms/bathroom-remodel-01.jpeg",
   },
   {
-    title: "Kitchen Remodels",
+    title: "Master Bathroom Remodels",
     description:
-      "Cabinetry, countertops, backsplashes, and modern layouts that turn your kitchen into the heart of your home.",
-    image: "/images/kitchens/kitchen-dark-cabinets-galley-01.jpeg",
+      "Full master bath renovations with premium tile, frameless glass showers, double vanities, and luxury finishes.",
+    image: "/images/bathrooms/bathroom-master-remodel-01.jpeg",
   },
   {
-    title: "Custom Carpentry",
+    title: "Kitchen Cabinet Painting",
     description:
-      "Accent walls, built-in shelving, hidden doors, wainscoting, mantles, and bespoke trim work — crafted on site.",
-    image: "/images/carpentry/carpentry-accent-wall-dark-panel-01.jpeg",
+      "Transform your kitchen with professional cabinet repainting and countertop replacement — a fraction of the cost of a full remodel.",
+    image: "/images/kitchens/kitchen-cabinet-paint-white-01.jpg",
   },
   {
-    title: "Interior & Exterior Painting",
+    title: "Accent Walls & Murphy Doors",
     description:
-      "Professional finishes for every surface. Clean lines, lasting color, and meticulous prep work inside and out.",
-    image: "/images/painting/painting-interior-room-gray-01.jpeg",
+      "Custom accent walls with hidden murphy doors — functional, stunning, and built to your exact specifications.",
+    image: "/images/carpentry/carpentry-accent-wall-murphy-door-01.jpeg",
   },
   {
-    title: "Hardwood Flooring",
+    title: "Fireplace, Shelving & TV Installs",
     description:
-      "Installation, refinishing, and staining that brings warmth and elegance to any room in your home.",
-    image: "/images/flooring-hardwood/hardwood-dark-stain-bedroom-01.jpeg",
+      "Built-in shelving, floating mantles, base cabinets, and full TV installation — crafted and finished on site.",
+    image: "/images/carpentry/carpentry-fireplace-floating-shelves-01.jpg",
   },
   {
-    title: "LVP Flooring",
+    title: "Interior Painting & Wallpaper",
     description:
-      "Luxury vinyl plank installation — durable, water-resistant, and beautiful for bedrooms, living areas, and stairs.",
-    image: "/images/flooring-lvp/lvp-bedroom-gray-01.jpeg",
+      "Professional interior paint and wallpaper installation. Clean lines, rich finishes, and meticulous prep work.",
+    image: "/images/painting/painting-wallpaper-install-01.jpeg",
   },
   {
-    title: "Outdoor Living & Decks",
+    title: "Whitewash & Specialty Finishes",
     description:
-      "Paver patios, pergolas, decks, and outdoor structures that extend your living space into the open air.",
-    image: "/images/outdoor/outdoor-pergola-completed-02.jpeg",
+      "Whitewash treatments and specialty paint finishes that add texture, warmth, and character to any wall.",
+    image: "/images/painting/painting-whitewash-01.jpg",
   },
   {
-    title: "Drywall & Repairs",
+    title: "Hardwood Floor Refinishing",
     description:
-      "Installation, patching, and finishing for walls and ceilings — clean surfaces ready for paint or texture.",
-    image: "/images/painting/painting-interior-bedroom-01.jpeg",
+      "Sanding, staining, and refinishing that restores the natural beauty of your hardwood floors.",
+    image: "/images/flooring-hardwood/hardwood-refinishing-01.jpeg",
   },
   {
-    title: "Basement Remodels",
+    title: "LVP Flooring Installation",
     description:
-      "Transform unused space into functional living areas — framing, flooring, lighting, and full finishing.",
-    image: "/images/painting/painting-interior-living-room-01.jpeg",
+      "Luxury vinyl plank installation — durable, water-resistant, and beautiful for any room including stairs.",
+    image: "/images/flooring-lvp/lvp-install-01.jpeg",
   },
   {
-    title: "Additions & Expansions",
+    title: "Gazebo & Outdoor Structures",
     description:
-      "Expand your footprint with quality construction that blends seamlessly with your existing home.",
-    image: "/images/exterior/exterior-house-front-driveway-01.jpeg",
+      "Custom gazebo and outdoor structure installation — built solid, finished beautifully, ready to enjoy.",
+    image: "/images/outdoor/outdoor-gazebo-01.jpeg",
   },
   {
-    title: "Handyman Services",
+    title: "Deck & Stair Repair",
     description:
-      "Door replacements, storage upgrades, fixture installations, and general repairs — no job is too small.",
-    image: "/images/carpentry/carpentry-built-in-shelving-01.jpeg",
+      "Deck repairs, stringer replacements, and full stair rebuilds — restored to safe, like-new condition.",
+    image: "/images/outdoor/outdoor-stairs-01.jpeg",
   },
   {
-    title: "And Much More",
+    title: "Gutter & Exterior Maintenance",
     description:
-      "Have a project in mind? We likely can help. Reach out and let us know what you need — we love a challenge.",
-    image: "/images/exterior/exterior-house-entry-walkway-01.jpeg",
+      "Gutter cleaning, exterior repairs, and lawn clean-up that keeps the outside of your home in top shape.",
+    image: "/images/exterior/exterior-gutter-lawn-01.jpeg",
   },
 ];
 

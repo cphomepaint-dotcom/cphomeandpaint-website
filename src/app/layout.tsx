@@ -17,6 +17,10 @@ const interTight = Inter_Tight({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cphomeandpaint.com"),
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
   title: "CP Home & Paint | Home Improvements in DC, Virginia & Maryland",
   description:
     "Professional home improvement services including bathroom remodels, kitchen remodels, custom carpentry, flooring, painting, and more. Serving Washington DC, Virginia, and Maryland.",
