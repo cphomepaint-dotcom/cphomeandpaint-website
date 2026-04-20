@@ -5,12 +5,13 @@
 - **Brand Name:** CP Home & Paint
 - **Domain:** cphomeandpaint.com
 - **Phone:** (336) 941-1955
-- **Email:** cphomeandpaint@gmail.com
+- **Email:** cphomepaint@gmail.com
 - **Service Area:** Washington DC, Virginia, and Maryland (DMV metro area)
 - **Facebook:** https://www.facebook.com/people/Cp-home-improvements-paint-llc/100086803976083/
 - **Instagram:** @cphomeimprovementspaint
 - **Brand positioning:** Small, family-owned home improvement company. "We guarantee that we'll give your home the highest level of care, and treat it as our own with great attention to detail."
-- **No claims to make:** licensed/insured, free estimates, years of experience
+- **License:** Licensed & Insured, MHIC 167373 (Maryland Home Improvement Commission)
+- **No claims to make:** free estimates, years of experience
 
 ## Tech Stack
 - **Framework:** Next.js 16 (App Router, TypeScript, Turbopack)

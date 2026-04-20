@@ -88,7 +88,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-cloud/40">
+        <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-cloud/40 space-y-1">
+          <p>Licensed &amp; Insured &middot; MHIC 167373</p>
           <p>
             &copy; {new Date().getFullYear()} CP Home Improvements &amp; Paint LLC.
             All rights reserved.
